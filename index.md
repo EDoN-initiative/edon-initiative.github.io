@@ -2,7 +2,18 @@
 layout: home
 ---
 
-<img src="/assets/img/edon_logo.jpg" alt="EDoN logo" width="160" style="border-radius: 50%; margin-bottom: 1rem;">
+<div class="hero">
+  <img class="profile" src="/assets/img/edon_logo_colour.png" alt="EDoN logo">
+  <h1>EDoN</h1>
+  <p class="tagline">Early Detection of Neurodegenerative diseases</p>
+
+  <!-- <div class="hero-links">
+    <a href="/projects/">Projects</a>
+    <a href="/news/">News</a>
+    <a href="/publications/">Publications</a>
+  </div> -->
+
+</div>
 
 The Early Detection of Neurodegenerative diseases initiative (EDoN) launched in 2018 to investigate innovative ways to detect dementia-causing diseases early using digital technologies.
 

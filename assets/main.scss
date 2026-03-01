@@ -1,0 +1,171 @@
+/* ======================================
+   GLOBAL TYPOGRAPHY & BODY
+   ====================================== */
+body {
+  line-height: 1.55;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #222;
+  padding: 0 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+
+/* ======================================
+   HERO SECTION
+   ====================================== */
+.hero {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 800px;
+  padding: 2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* Profile Image */
+img.profile {
+  border-radius: 50%;
+  max-width: 180px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Name & Tagline */
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hero .tagline {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Hero Links (buttons) */
+.hero-links {
+  margin-bottom: 1.5rem;
+}
+
+.hero-links a {
+  display: inline-block;
+  margin: 0 0.75rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-links a:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+/* Quote / Subtagline */
+.hero .quote {
+  color: #888;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* ======================================
+   PROJECTS GRID
+   ====================================== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* ======================================
+   NEWS POSTS
+   ====================================== */
+.news-post {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+/* ======================================
+   PUBLICATIONS LIST
+   ====================================== */
+ul.publications li {
+  margin-bottom: 0.8rem;
+}
+
+/* ======================================
+   HEADER LINKS (MINIMA NAVBAR)
+   ====================================== */
+header a {
+  text-decoration: none;
+  color: #007acc;
+  padding: 0.3rem 0.5rem;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* ======================================
+   FOOTER (Optional styling)
+   ====================================== */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 4rem;
+  padding: 2rem 0;
+}
+
+/* ======================================
+   RESPONSIVE STYLES
+   ====================================== */
+@media (max-width: 600px) {
+  .hero-links a {
+    display: block;
+    margin: 0.5rem auto;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .tagline {
+    font-size: 1.1rem;
+  }
+}
