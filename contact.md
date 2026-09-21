@@ -5,4 +5,4 @@ permalink: /contact/
 ---
 
 
-For EDoN information, contact Kieran Wing (study co-ordinator): k.wing-at-ucl.ac.uk
+For EDoN information, contact Tim Whitfield (study co-ordinator): t.whitfield-at-ucl.ac.uk
